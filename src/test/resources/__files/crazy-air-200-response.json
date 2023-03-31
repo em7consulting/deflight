@@ -1,0 +1,11 @@
+[
+  {
+    "airline": "FlyDubai",
+    "price": "205.99",
+    "cabinclass": "E",
+    "departureAirportCode": "LHR",
+    "destinationAirportCode": "DBX",
+    "departureDate": "2023-05-01T08:30:00",
+    "arrivalDate": "2023-05-01T13:30:00"
+  }
+]

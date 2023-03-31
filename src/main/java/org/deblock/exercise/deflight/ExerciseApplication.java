@@ -1,4 +1,4 @@
-package org.deblock.exercise;
+package org.deblock.exercise.deflight;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

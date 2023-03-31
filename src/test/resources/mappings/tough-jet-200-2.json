@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/tough-jet/flight-info",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "from": "KRK",
+          "to": "DBX",
+          "outboundDate": "2023-05-01",
+          "inboundDate": "2023-05-01",
+          "numberOfAdults": 4
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tough-jet-200-response-2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

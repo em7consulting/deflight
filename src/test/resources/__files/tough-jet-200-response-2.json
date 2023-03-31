@@ -1,0 +1,12 @@
+[
+  {
+    "carrier": "FlyDubai",
+    "basePrice": "500.00",
+    "tax": "20.00",
+    "discount": "15.00",
+    "departureAirportName": "KRK",
+    "arrivalAirportName": "DBX",
+    "outboundDateTime": "2023-05-01T08:30:00Z",
+    "inboundDateTime": "2023-05-01T13:30:00Z"
+  }
+]

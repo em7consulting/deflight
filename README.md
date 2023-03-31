@@ -112,3 +112,7 @@ The service should connect to the both the suppliers using HTTP.
 **Note**
 
 Please clone this project then create your own repository from it. Do not fork/branch this project when creating your solution as it will be visible to other applicants.
+
+**Implementation assumptions**
+- DeBlock flight response requires ISO_DATE_TIME which contains timezone which is not provided by CrazyAir API. Therefore, I created a simple mapper between airport code and timezone which would need further filling.
+- All prices are in USD unless currency is specified by external APIs

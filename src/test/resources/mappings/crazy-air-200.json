@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/crazy-air/flight-info",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "origin": "LHR",
+          "destination": "DBX",
+          "departureDate": "2023-05-01",
+          "returnDate": "2023-05-01",
+          "passengerCount": 4
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "crazy-air-200-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
